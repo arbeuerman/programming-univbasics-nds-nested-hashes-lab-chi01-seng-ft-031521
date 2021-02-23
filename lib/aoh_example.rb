@@ -43,6 +43,7 @@ def literal_aoh
       occupation: "Fan of Mildred"
     }
   ]
+  people.sort 
 end
 
 def aoh_lookup(aoh, row, key)
