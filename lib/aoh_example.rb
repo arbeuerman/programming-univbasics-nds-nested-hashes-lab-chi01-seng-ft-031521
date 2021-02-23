@@ -21,6 +21,25 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  people = [
+    { 
+      name:  "Joelle van Dyne", 
+      occupation: "Radio Personality"
+    },
+    { 
+      name:  "Pat Monteseian", 
+      occupation: "Staff"
+    },
+    { 
+      name:  "Kate Gompert", 
+      occupation: "None"
+    }, 
+    { 
+      name:  "Bruce Green", 
+      occupation: "Fan of Mildred"
+    }
+  ]
+  people.sort 
 end
 
 def aoh_lookup(aoh, row, key)
